@@ -1,10 +1,8 @@
 # Over the C10K/C1000K/C10M problem
 
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
-
 ## Reference
 
-* refer to [Reference](REFERENCE.md).
+* refer to [reference](REFERENCE.md).
 
 ## License
 
