@@ -16,3 +16,6 @@
 
 /ws-server
 /ws-client
+/gperftools-arena/heap_benchmark
+/gperftools-arena/cpu_benchmark
+/gperftools-arena/prof/heap_benchmark.*.heap
