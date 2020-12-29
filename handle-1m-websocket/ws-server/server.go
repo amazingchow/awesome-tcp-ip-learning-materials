@@ -28,7 +28,7 @@ func webSocketHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	if err := _Epoll.Add(conn); err != nil {
+	if err = _Epoll.Add(conn); err != nil {
 		fmt.Printf("failed to add websocket conn to epoll, err: %v\n", err)
 		conn.Close()
 	}
@@ -62,8 +62,6 @@ EPOLL_LOOP:
 							fmt.Printf("failed to remove websocket conn from epoll, err: %v\n", err)
 						}
 						conn.Close()
-					} else {
-						// do sth with the msg
 					}
 				}
 			}
@@ -106,7 +104,7 @@ func main() {
 		Addr: "localhost:6060",
 	}
 	go func() {
-		if err = pprofServer.ListenAndServe(); err != nil && err != http.ErrServerClosed {
+		if err := pprofServer.ListenAndServe(); err != nil && err != http.ErrServerClosed {
 			panic(err)
 		}
 	}()

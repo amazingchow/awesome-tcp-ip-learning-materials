@@ -10,7 +10,7 @@ import (
 	"golang.org/x/sys/unix"
 )
 
-// https://man7.org/linux/man-pages/man7/epoll.7.html
+// More info: https://man7.org/linux/man-pages/man7/epoll.7.html
 
 type Epoll struct {
 	mu    sync.RWMutex

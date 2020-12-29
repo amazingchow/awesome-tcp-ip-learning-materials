@@ -8,7 +8,7 @@ all: build
 build: $(ALL_TARGETS)
 
 $(TARGETS): $(SRC)
-	go build -ldflags '$(LDFLAGS)' $(GOMODULEPATH)/$(PROJECT)/handle-1m-websocket/$@
+	go build $(GOMODULEPATH)/$(PROJECT)/handle-1m-websocket/$@
 
 clean:
 	rm -f $(ALL_TARGETS)
