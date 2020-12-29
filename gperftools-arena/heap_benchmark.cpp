@@ -5,8 +5,8 @@
 #include <sys/time.h>
 #include <unistd.h>
 
-int THREAD_NUM = 1;	// 并发线程数
-int TEST_NUM = 1e6;	// 循环测试次数
+int THREAD_NUM = 1;	   // 并发线程数
+int TEST_NUM = 1e6;	   // 循环测试次数
 int ALLOC_SIZE = 64;   // 一次性分配的内存块大小
 
 void* loop_alloc(void* args)
