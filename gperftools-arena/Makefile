@@ -1,7 +1,3 @@
-fmt:
-	@clang-format -i heap_benchmark.cpp
-	@clang-format -i cpu_benchmark.cpp
-
 build:
 	g++ -g -Wall heap_benchmark.cpp -o heap_benchmark -std=c++11 -lpthread -ltcmalloc -lprofiler -lunwind
 	g++ -g -Wall cpu_benchmark.cpp -o cpu_benchmark -std=c++11 -lpthread -ltcmalloc -lprofiler -lunwind
