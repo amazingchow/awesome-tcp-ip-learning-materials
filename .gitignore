@@ -51,6 +51,7 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
+gperftools/
 /gperftools-arena/heap_benchmark
 /gperftools-arena/cpu_benchmark
 /gperftools-arena/prof/heap_benchmark.*.heap
