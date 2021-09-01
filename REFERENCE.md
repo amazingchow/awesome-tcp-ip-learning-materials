@@ -11,3 +11,4 @@
 * [如何大幅压缩移动网络下APP的流量消耗](http://www.52im.net/thread-696-1-1.html)
 * [技术大牛陈硕的分享：由浅入深，网络编程学习经验干货总结](http://www.52im.net/thread-2608-1-6.html)
 * [常见TCP/UDP端口号大全](http://www.52im.net/thread-451-1-8.html)
+* [TLS单向认证与双向认证](https://www.racent.com/blog/differences-between-1-way-authentication-and-2-way-ssl-certificate)
